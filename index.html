@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Recipe Generator</title>
   </head>
@@ -10,7 +11,7 @@
     <div class="container">
       <h1>AI SA Recipe Generator</h1>
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter Favourite SA Recipe"
@@ -20,7 +21,7 @@
             class="instructions" />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
+        <div class="recipe" id="recipe">
           Melktert
           <br />
           Similar to the British custard tart or Portuguese pasteis de nata,
